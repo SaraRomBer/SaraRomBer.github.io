@@ -56,3 +56,18 @@
     font-size: 18px;
 }
 
+@media (max-width: 768px) {
+    .group, .info {
+        flex-direction: column; /* apilar elementos */
+        gap: 1rem;
+    }
+
+    .info .title {
+        width: 100%; /* ocupar toda la fila en móvil */
+    }
+
+    p.text {
+        max-width: 100%; /* ancho completo */
+        text-indent: 1em;
+    }
+}
