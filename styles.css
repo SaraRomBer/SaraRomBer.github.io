@@ -1,12 +1,52 @@
-body {
-    margin: 0;
-    height: 100vh;
+ body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: Calibri, sans-serif;
+ }
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+ h2,
+ h3 {
+    text-transform: uppercase;
+ }
+
+ p.text {
+     text-align: justify;
+     text-indent: 30px;
+     font-family: Calibri, sans-serif;
+     max-width: 600px;
+ }
+
+
+.group {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-p {
-    font-family: Calibri, sans-serif;
+.info {
+  display: flex;
+  gap: 50px;
+  align-items:start;
+  justify-content: flex-start;
 }
+
+.info .row {
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.info .title {
+    width: 300px;
+    font-weight: bold;
+}
+
+
+.contact .material-icons {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+
